@@ -1,0 +1,68 @@
+/* $grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+); */
+
+
+@media screen and (max-width: 576px) {
+    img[alt="Banner"] {
+        height: 750px !important;
+    }
+
+    .container {
+        max-width: 95% !important;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    nav>.container,
+    nav>.container>.row {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 824px) {}
+
+@media screen and (min-width: 992px) {
+
+    #carousel1 .owl-nav {
+        top: -170px;
+    }
+
+    img[alt="Logo"] {
+        margin-left: -50%;
+    }
+
+}
+
+
+@media screen and (min-width: 1200px) {
+    .product {
+        background-image: url(./images/Group_137.png);
+    }
+
+    #carousel1 .owl-nav {
+        top: -170px;
+    }
+}
+
+
+@media screen and (min-width: 1600px) {
+    .container {
+        max-width: 95% !important;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+
+    img[alt="Logo"] {
+        margin-left: -70%;
+    }
+}

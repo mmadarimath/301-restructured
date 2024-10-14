@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    color: #333333;
+}
+
+.montserrat {
+    font-family: "Montserrat", "Roboto", "Plus Jakarta Sans", "Inter", sans-serif;
+}
+
+.roboto {
+    font-family: "Roboto", "Plus Jakarta Sans", "Inter", sans-serif;
+}
+
+.jakarta {
+    font-family: "Plus Jakarta Sans", "Inter", sans-serif;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+}
+
+
+header>.container>.back2 {
+    background-color: #FFF4FA;
+}
+
+
+.backBottom>.row>div {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.gallery1>div,
+.gallery1>div:nth-child(2)>div>div {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio: 1/1;
+}
+
+
+.gallery1>div:not(:nth-child(2)),
+.gallery1>div:nth-child(2)>div>div {
+    border-radius: 24px;
+    color: #FFF;
+}
+
+.gallery1 h4 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.gallery1 h6 {
+    font-size: 20px;
+}
+
+.gallery1>div:nth-child(1) {
+    background-image: url(../images/homepage/Group_107.png);
+}
+
+.gallery1>div:nth-child(2)>div>div:first-child {
+    background-image: url(../images/homepage/Group_108.png);
+    padding: 10px;
+}
+
+.gallery1>div:nth-child(2)>div>div:last-child {
+    background-image: url(../images/homepage/Group_109.png);
+    padding: 10px;
+}
+
+.gallery1>div:nth-child(3) {
+    background-image: url(../images/homepage/Group_110.png);
+    padding: 10px;
+}
+
+.gallery1>div:nth-child(4) {
+    background-image: url(../images/homepage/Group_111.png);
+    padding: 10px;
+}
+
+header>.container {
+    background-image: url(../images/general/arcticons_element-2.png);
+    background-position: left 50px bottom 0px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    padding-bottom: 160px;
+}
+
+.strengths>div>.row>div>div {
+    box-shadow: 0 8px 16px 0 #0000001A;
+    background-color: #FFF;
+}
+
+.strengths>div>.row>div>img {
+    height: 55px;
+    aspect-ratio: 1/1;
+    margin-bottom: 15px;
+}
+
+.strengths>div>.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+article {
+    background-image: url(../images/general/Vector_2.png), url(../images/general/Group.png);
+    background-position: left 14vw bottom 0px, top 22vh right 16vw;
+    background-size: 1000px, 90px;
+    background-repeat: no-repeat;
+    padding: 60px 0 160px 0;
+}
+
+.schedule {
+    background-image: url(../images/homepage/Group_143.png);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    padding-top: 150px;
+    background-image: url(../images/general/arcticons_element-1.png), url(../images/general/Group_93.png), url(../images/general/Group_93.png);
+    background-position: top 150px left, top -15vh left 36%, bottom 0vh right 25px;
+    background-size: 20vmin, 60vmin, 50vmin;
+    background-repeat: no-repeat;
+}
+
+
+.gallery2>div {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 350px;
+    aspect-ratio: 2/1;
+}
+
+.gallery2>div {
+    border-radius: 24px;
+    color: #FFF;
+}
+
+.gallery2 h6 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.gallery2>div:nth-child(1) {
+    background-image: url(../images/homepage/Group_98.png);
+}
+
+.gallery2>div:nth-child(2) {
+    background-image: url(../images/homepage/unsplash_8gr6bObQLOI.png);
+}
+
+.gallery2>div:nth-child(3) {
+    background-image: url(../images/homepage/unsplash_6elR6qXxT3s.png);
+}
+
+.gallery2>div:nth-child(4) {
+    background-image: url(../images/homepage/unsplash_0yfWDwHOB0g.png);
+}
+
+.gallery2>div:nth-child(5) {
+    background-image: url(../images/homepage/unsplash_mfjoslXbb-8.png);
+}
+
+.gallery2>div:nth-child(6) {
+    background-image: url(../images/homepage/unsplash_NUrl7t_fkyk.png);
+}
+
+.partners {
+    background-image: url(../images/general/Rectangle_844183.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer .socialIcons {
+    display: flex;
+    column-gap: 20px;
+    padding: 0;
+}
+
+footer .socialIcons li {
+    float: left;
+}
+
+footer .list li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    list-style-type: none;
+    color: #666;
+}
+
+footer .list li {
+    padding: 15px 0;
+}
+
+
+.contact #form {
+    background-image: url(../images/general/Rectangle_844197.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 24px;
+}
+
+aside {
+    background-image: url(../images/general/arcticons_element.png), url(../images/general/Group_93.png);
+    background-position: top 0vh right 13vw, bottom 0vh left 0vw;
+    background-size: 20vmin, 50vmin;
+    background-repeat: no-repeat;
+}
+
+
+/* Carousel 1 */
+
+
+.product {
+    border: 1px solid #A0A0A033;
+    box-shadow: 0 8px 16px 0 #0000001A;
+    background-color: #FFF4FA;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+    background-image: none;
+    border-radius: 30px !important;
+}
+
+.products .item {
+    max-width: 90% !important;
+}
+
+.products .item h4 {
+    color: #CC338B;
+    font-size: 16px;
+}
+
+.products .item h2 {
+    color: #333;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.products .item h6 {
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#productSection {
+    background-image: url(../images/general/arcticons_element.png);
+    background-position: top 14vh right 33vw;
+    background-size: 20vmin;
+    background-repeat: no-repeat;
+}
+
+#carousel1 .owl-dots {
+    display: none !important;
+}
+
+#carousel1 .owl-stage-outer {
+    position: relative;
+}
+
+#carousel1 .owl-nav {
+    position: absolute;
+    top: -70px;
+    right: 8vw;
+}
+
+#carousel1 .owl-prev,
+#carousel1 .owl-next {
+    color: #CC338B;
+    font-size: 100px;
+}
+
+#carousel1 button span {
+    display: none;
+}
+
+#carousel1 .owl-prev {
+    content: "";
+    background-image: url(../images/general/carVector.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    height: 70px;
+    aspect-ratio: 1/1;
+    border: 1px solid #A0A0A0;
+    border-radius: 50%;
+}
+
+#carousel1 .owl-next {
+    content: "";
+    background-image: url(../images/general/carVector2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    height: 70px;
+    aspect-ratio: 1/1;
+    border: 1px solid #A0A0A0;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+
+/* Carousel 1 */
+
+
+.blog {
+    border: 1px solid #A0A0A033;
+    box-shadow: 0 8px 16px 0 #0000001A;
+    background-color: #FFF;
+    border-radius: 30px !important;
+}
+
+.blogs .item {
+    max-width: 95% !important;
+}
+
+.blogs .item h4 {
+    color: #CC338B;
+    font-size: 16px;
+}
+
+.blogs .item h2 {
+    color: #333;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.blogs .item h6 {
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#blogs {
+    background-image: url(../images/general/Group_5468.png);
+    background-position: center;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+#carousel2 {
+    padding-bottom: 90px;
+}
+
+#carousel2 .owl-stage-outer {
+    position: relative;
+}
+
+#carousel2 .owl-nav {
+    position: absolute;
+    bottom: 20px;
+    right: 8vw;
+}
+
+#carousel2 .owl-prev,
+#carousel2 .owl-next {
+    color: #CC338B;
+    font-size: 100px;
+}
+
+#carousel2 button span {
+    display: none;
+}
+
+#carousel2 .owl-prev {
+    content: "";
+    background-image: url(../images/general/carVector.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    height: 70px;
+    aspect-ratio: 1/1;
+    border: 1px solid #A0A0A0;
+    border-radius: 50%;
+}
+
+#carousel2 .owl-next {
+    content: "";
+    background-image: url(../images/general/carVector2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    height: 70px;
+    aspect-ratio: 1/1;
+    border: 1px solid #A0A0A0;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+#carousel2 .owl-nav {
+    display: inline !important;
+}
+
+#carousel2 .owl-dots {
+    display: block !important;
+}

@@ -1,0 +1,97 @@
+/* $grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+); */
+
+
+@media screen and (max-width: 576px) {
+    img[alt="Banner"] {
+        height: 750px !important;
+    }
+
+    .container {
+        max-width: 95% !important;
+    }
+
+    .gal2img5 {
+        grid-area: 8/1/11/4;
+        background-image: url(./images/homepage/unsplash_mfjoslXbb-8.png);
+    }
+
+    .gal2img6 {
+        grid-area: 8/4/11/9;
+        background-image: url(./images/homepage/unsplash_NUrl7t_fkyk.png);
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    nav>.container,
+    nav>.container>.row {
+        width: 100%;
+    }
+
+    .gallery1>div:nth-child(2)>div>div {
+        aspect-ratio: 2.15/1;
+    }
+
+    .split {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .backBottom>div>div:first-child {
+        border-radius: 0 20px 0 0;
+    }
+
+    .backBottom>div>div:last-child {
+        border-radius: 20px 0 0 0;
+    }
+}
+
+
+@media screen and (max-width: 824px) {}
+
+@media screen and (min-width: 992px) {
+
+    #carousel1 .owl-nav {
+        top: -170px;
+    }
+
+    img[alt="Logo"] {
+        margin-left: -50%;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .product {
+        background-image: url(./images/general/Group_137.png);
+    }
+
+    #carousel1 .owl-nav {
+        top: -170px;
+    }
+}
+
+
+@media screen and (min-width: 1600px) {
+    .container {
+        max-width: 95% !important;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+
+    img[alt="Logo"] {
+        margin-left: -70%;
+    }
+}
